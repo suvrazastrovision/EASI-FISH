@@ -20,7 +20,7 @@ See [here](https://github.com/JaneliaSciComp/multifish) for active EASI-FISH pip
       * [Example data](#example-data)
 
 ## Description #
-This workflow is used to analyze large-scale, multi-round, high-resolution image data acquired using EASI-FISH (Expansion-Assisted Iterative Fluorescence *In Situ* Hybridization). It takes advantage of the [n5](https://github.com/saalfeldlab/n5) filesystem to allow for rapid and parallel data reading and writing. It performs automated image stitching, distributed and highly accurate multi-round image registration, 3D cell segmentation, and distributed spot detection. We also envision this workflow being adapted for analysis of other image-based spatial transcriptomic data. 
+This workflow is used to analyze large-scale, multi-round, high-resolution imaging data acquired using EASI-FISH (Expansion-Assisted Iterative Fluorescence *In Situ* Hybridization). It takes advantage of the [n5](https://github.com/saalfeldlab/n5) filesystem to allow for rapid and parallel data reading and writing. It performs automated image stitching, distributed and highly accurate multi-round image registration, 3D cell segmentation, and distributed spot detection. We also envision this workflow being adapted for analysis of other image-based spatial transcriptomic data. 
 ![](/resources/Pipeline.gif)
  
 ## Pipeline #
