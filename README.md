@@ -1,8 +1,6 @@
 # EASI-FISH analysis toolbox # 
 [![DOI](https://zenodo.org/badge/319982517.svg)](https://zenodo.org/badge/latestdoi/319982517)
 
-# EASI-FISH Analysis Pipeline
-
 This repository contains a maintained and applied version of the image analysis pipeline for **EASI-FISH** (Expansion-Assisted Iterative Fluorescence *In Situ* Hybridization), originally developed and published by Wang et al. The pipeline analyzes EASI-FISH imaging data and includes automated image stitching, distributed multi-round image registration, cell segmentation, and distributed spot detection.
 
 ## My contributions
