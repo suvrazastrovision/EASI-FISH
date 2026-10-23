@@ -1,9 +1,25 @@
 # EASI-FISH analysis toolbox # 
 [![DOI](https://zenodo.org/badge/319982517.svg)](https://zenodo.org/badge/latestdoi/319982517)
 
-**Expansion-Assisted Iterative-FISH defines lateral hypothalamus spatio-molecular organization** <br/>
-*Yuhan Wang, Mark Eddison, Greg Fleishman, Martin Weigert, Shengjin Xu, Fredrick E. Henry, Tim Wang, Andrew L. Lemire, Uwe Schmidt, Hui Yang, Konrad Rokicki, Cristian Goina, Karel Svoboda, Eugene W. Myers, Stephan Saalfeld, Wyatt Korff, Scott M. Sternson, Paul W. Tillberg* <br/>
-bioRxiv 2021.03.08.434304; doi: https://doi.org/10.1016/j.cell.2021.11.024
+# EASI-FISH Analysis Pipeline
+
+This repository contains a maintained and applied version of the image analysis pipeline for **EASI-FISH** (Expansion-Assisted Iterative Fluorescence *In Situ* Hybridization), originally developed and published by Wang et al. The pipeline analyzes EASI-FISH imaging data and includes automated image stitching, distributed multi-round image registration, cell segmentation, and distributed spot detection.
+
+## My contributions
+
+I contributed to establishing, running, troubleshooting, and maintaining this pipeline from scratch for analysis of EASI-FISH imaging data. My work included:
+
+- Setting up and applying the NexFlow automation workflow to imaging datasets
+- Diagnosing, optimising and fixing issues across the stitching, registration, segmentation, and spot detection stages
+- Keeping the pipeline running reliably as dependencies, data, and compute environments changed
+
+## Original work and citation
+
+The EASI-FISH method and the original pipeline were developed by Wang et al. If you use this pipeline or its results, please cite the paper:
+
+[Expansion-Assisted Iterative-FISH defines lateral hypothalamus spatio-molecular organization](https://doi.org/10.1016/j.cell.2021.11.024) (Cell, 2021)
+
+Original code and method: [multiFISH/EASI-FISH](https://github.com/multiFISH/EASI-FISH)
 
 See [here](https://github.com/JaneliaSciComp/multifish) for active EASI-FISH pipeline updates. 
 ## Table of Contents #
