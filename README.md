@@ -7,7 +7,7 @@ This repository contains a maintained and applied version of the image analysis 
 
 I contributed to establishing, running, troubleshooting, and maintaining this pipeline from scratch for analysis of EASI-FISH imaging data. My work included:
 
-- Setting up and applying the NexFlow automation workflow to imaging datasets
+- Setting up and applying the NextFlow automation workflow to imaging datasets
 - Diagnosing, optimising and fixing issues across the stitching, registration, segmentation, and spot detection stages
 - Keeping the pipeline running reliably as dependencies, data, and compute environments changed
 
